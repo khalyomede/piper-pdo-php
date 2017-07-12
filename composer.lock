@@ -1,0 +1,82 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6824e69539afb6d933a3bcc50025a895",
+    "packages": [
+        {
+            "name": "khalyomede/piper-contract-php",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khalyomede/piper-contract-php.git",
+                "reference": "9cf74eb99295f2aa4cfbf58a46cd5636f1dc5309"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khalyomede/piper-contract-php/zipball/9cf74eb99295f2aa4cfbf58a46cd5636f1dc5309",
+                "reference": "9cf74eb99295f2aa4cfbf58a46cd5636f1dc5309",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Khalyomede\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Interface used by Piper-PHP to build safe Piper Comunity class",
+            "time": "2017-07-09T12:21:08+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "khalyomede/piper-php",
+            "version": "0.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khalyomede/piper-php.git",
+                "reference": "aa9dd3ceb1c4ca9120fa4bd330db3acd6915bb3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khalyomede/piper-php/zipball/aa9dd3ceb1c4ca9120fa4bd330db3acd6915bb3f",
+                "reference": "aa9dd3ceb1c4ca9120fa4bd330db3acd6915bb3f",
+                "shasum": ""
+            },
+            "require": {
+                "khalyomede/piper-contract-php": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Khalyomede\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Put an end to unreadable PHP code.",
+            "time": "2017-07-09T12:27:16+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}
